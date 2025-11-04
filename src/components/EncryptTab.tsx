@@ -44,7 +44,7 @@ export default function EncryptTab() {
             <span className="w-3 h-3 rounded-full bg-red-600/80" />
             <span className="w-3 h-3 rounded-full bg-yellow-400/80" />
             <span className="w-3 h-3 rounded-full bg-green-400/80" />
-            <span className="ml-3 text-[11px] text-green-300/80">parrot@ficct:~/encrypt</span>
+            <span className="ml-3 text-[11px] text-green-300/80">hacker@ficct:~/encrypt</span>
           </div>
 
           <div className="flex items-center gap-3 text-[11px] text-green-300/70">
@@ -58,12 +58,11 @@ export default function EncryptTab() {
           <div>
             <div className="flex items-center gap-2">
               <i className="bx bx-lock-alt text-lg text-green-400 animate-pulse" />
-              <h1 className="text-sm sm:text-base font-semibold text-green-300 tracking-wide">
-                encrypt — ocultar mensaje
+                            <h1 className="flex items-center gap-2 text-green-400 text-base sm:text-lg font-semibold"> encrypt — ocultar mensaje
               </h1>
             </div>
             <p className="mt-1 text-[0.73rem] text-green-300/70 max-w-lg">
-              Esteganografía zero-width: oculta secretos dentro de texto público. Ideal para pruebas y demos.
+              Esteganografía zero-width: oculta secretos dentro de texto público.
             </p>
           </div>
 
@@ -152,7 +151,7 @@ export default function EncryptTab() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-green-300/60">root@parrot:~$</span>
+            <span className="text-green-300/60">root@hacker:~$</span>
             <span className="w-3 h-4 bg-green-300 animate-pulse inline-block rounded-sm" aria-hidden />
           </div>
         </div>

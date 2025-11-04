@@ -35,11 +35,60 @@ export default function App() {
         </div>
       </main>
 
-      {/* FOOTER estilo terminal */}
-      <footer className="w-full mt-auto border-t border-green-500/20 py-2 px-4 text-green-400 text-xs sm:text-sm flex justify-between items-center">
-        <span>FicctHack Tools © 2025</span>
-        <span className="animate-pulse">root@ficcttools:~$</span>
-      </footer>
+{/* FOOTER estilo terminal hacker */}
+<footer className="w-full mt-auto border-t border-green-500/20 bg-black/80 text-green-400 font-mono text-xs sm:text-sm flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 py-3 px-4">
+  
+  {/* Izquierda - Autor */}
+  <div className="flex items-center gap-2 text-green-300/80">
+    <i className="bx bx-terminal text-lg animate-pulse text-green-400"></i>
+    <span>
+      Dev por{" "}
+      <strong className="text-green-400 hover:text-green-300 transition-colors">
+        Luishiño Pericena
+      </strong>
+    </span>
+  </div>
+
+  {/* Centro - Año y nombre */}
+  <div className="text-green-400/70 tracking-wide">
+    © {new Date().getFullYear()} FicctHack Tools — Esteganografía Zero-Width
+  </div>
+
+  {/* Derecha - Redes */}
+  <div className="flex items-center gap-3">
+    <a
+      href="https://github.com/Pericena"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-green-300 transition-colors"
+      title="GitHub"
+    >
+      <i className="bx bxl-github text-lg"></i>
+    </a>
+    <a
+      href="https://www.linkedin.com/in/lpericena"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-green-300 transition-colors"
+      title="LinkedIn"
+    >
+      <i className="bx bxl-linkedin-square text-lg"></i>
+    </a>
+    <a
+      href="https://lpericena.blogspot.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-green-300 transition-colors"
+      title="Blog personal"
+    >
+      <i className="bx bxl-blogger text-lg"></i>
+    </a>
+    <span className="ml-2 text-green-400 animate-pulse">
+      root@ficcthack:~$
+    </span>
+  </div>
+</footer>
+
     </div>
   );
 }

@@ -44,7 +44,7 @@ export default function DecryptTab() {
             <span className="w-3 h-3 rounded-full bg-red-600/80" />
             <span className="w-3 h-3 rounded-full bg-yellow-400/80" />
             <span className="w-3 h-3 rounded-full bg-green-400/80" />
-            <span className="ml-3 text-[11px] text-green-300/80">parrot@ficct:~/encrypt</span>
+            <span className="ml-3 text-[11px] text-green-300/80">hacker@ficct:~/encrypt</span>
           </div>
 
           <div className="flex items-center gap-3 text-[11px] text-green-300/70">
@@ -62,7 +62,7 @@ export default function DecryptTab() {
                 <i className="bx bx-terminal text-lg sm:text-xl" /> decrypt — analizar
               </h1>
               <p className="mt-1 text-green-300/70 text-[11px]">
-                Pega el texto que contiene caracteres zero-width. El sistema extraerá el mensaje público y el secreto.
+                Pega el texto que contiene caracteres zero-width.
               </p>
             </header>
 
@@ -207,7 +207,7 @@ export default function DecryptTab() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-green-300/70 text-[11px]">root@parrot:~$</span>
+            <span className="text-green-300/70 text-[11px]">root@hacker:~$</span>
             <span className="w-3 h-4 bg-green-300 animate-pulse inline-block rounded-sm" aria-hidden />
           </div>
         </div>
